@@ -1,100 +1,159 @@
 {% extends 'layout.html' %}
 {% block body %}
 
-<body style="width: 100%; background-color: black;" >
+<body style="width: 100%; background-color: black;">
     <div class="row" style="display:flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         width: 100%;">
-    
+
         <img src="../static/LOGO 1.jpg" class="img-fluid" style="max-width:20rem;" alt="...">
-        
-    
+
+
     </div>
-    
+
     <div class="row" style="display:flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         width: 100%;">
-        <div class="card" style="width: 18rem; height:22rem; margin:5px 5px 5px 5px ">
-            <img src="../static/pizza.jpg" class="card-img-top" alt="pizza" style="width:270px; height:160px;">
+        <div class="card" style="width: 18rem; height:22rem; margin:5px 5px 5px 5px; justify-content: center;
+        align-items: center;
+        text-align: center; border-color: orange; border-width: 4px;">
+            <img src="../static/pizza.jpg" class="card-img-top" alt="pizza"
+                style="width:270px; height:160px; padding-top: 5px;">
             <div class="card-body">
                 <h5 class="card-title">Nuestras Pizzas</h5>
                 <p class="card-text">Amazamos todos los dias para hacer la pizza que nos gusta a todos .</p>
                 <a href="/pizza" class="btn btn-primary">Ver todas</a>
             </div>
         </div>
-        <div class="card" style="width: 18rem; height:22rem; margin:5px 5px 5px 5px">
-            <img src="../static/empanadas.jpg" class="card-img-top" alt="..." style="width:270px; height:160px;">
+        <div class="card" style="width: 18rem; height:22rem; margin:5px 5px 5px 5px; justify-content: center;
+        align-items: center;
+        text-align: center; border-color: orange; border-width: 4px;">
+            <img src="../static/empanadas.jpg" class="card-img-top" alt="..."
+                style="width:270px; height:160px; padding-top: 5px;">
             <div class="card-body">
-                <h5 class="card-title">Nuestras Enpanadas</h5>
+                <h5 class="card-title">Nuestras Empanadas</h5>
                 <p class="card-text">Hacemos variedades para todos los gustos!!</p>
                 <a href="/empanada" class="btn btn-primary">Ver todas </a>
             </div>
         </div>
-        <div class="card" style="width: 18rem; height:22rem; margin:5px 5px 5px 5px" >
+        <div class="card" style="width: 18rem; height:22rem; margin:5px 5px 5px 5px; justify-content: center;
+        align-items: center;
+        text-align: center; border-color: orange; border-width: 4px;">
             <img src="../static/MILA.jpg" class="card-img-top" alt="..."
-                style="width:270px; height:160px;">
+                style="width:270px; height:160px; padding-top: 5px;">
             <div class="card-body">
                 <h5 class="card-title">Milanesas</h5>
                 <p class="card-text">Simples para vos o super para compartir.. pedila como quieras! </p>
                 <a href="milanesa" class="btn btn-primary">Nuestras Milas</a>
             </div>
         </div>
-        <div class="row" style="display:flex;
+    </div>
+    <div class="row" style="display:flex;
             justify-content: center;
             align-items: center;
             text-align: center;
             width: 100%;"> >
-            <div class="card" style="width: 18rem; height: 22rem; margin:5px 5px 5px 5px;">
-                <img src="../static/Sandw.jpeg" class="card-img-top" alt="..." style="width:270px; height:160px;">
-                <div class="card-body">
-                    <h5 class="card-title">Entre Panes</h5>
-                    <p class="card-text">Nuestros Sandwiches Bondiola, Carne, Pollo y Mila,
-                        Hamburgesas simples o dobles!!</p>
-                    <a href="/sandwich" class="btn btn-primary">todas las opciones</a>
+        <div class="card" style="width: 18rem; height: 22rem; margin:5px 5px 5px 5px; justify-content: center;
+            align-items: center;
+            text-align: center; border-color: orange; border-width: 4px;">
+            <img src="../static/Sandw.jpeg" class="card-img-top" alt="..."
+                style="width:270px; height:160px; padding-top: 5px;">
+            <div class="card-body">
+                <h5 class="card-title">Entre Panes</h5>
+                <p class="card-text">Sandwiches Bondiola, Carne, Pollo y Mila,
+                    Hamburgesas simples o dobles!!</p>
+                <a href="/sandwich" class="btn btn-primary">Opciones para todos</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; height:22rem; margin:5px 5px 5px 5px; justify-content: center;
+            align-items: center;
+            text-align: center; border-color: orange; border-width: 4px;">
+            <img src="../static/PAPAS.jpg" class="card-img-top" alt="..."
+                style="width:270px; height:160px; padding-top: 5px;">
+            <div class="card-body">
+                <h5 class="card-title"> Sale con Fritas</h5>
+                <p class="card-text"> Simples o Con cheddar!!
+                    Chicas, grandes para compartir y XL para todos!! </p>
+                <a href="/fritas" class="btn btn-primary">Todas las opciones</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; height:22rem; margin:5px 5px 5px 5px; justify-content: center;
+            align-items: center;
+            text-align: center; border-color: orange; border-width: 4px;">
+            <img src="../static/BIRRA.jpg" class="card-img-top" alt="..."
+                style="width:270px; height:160px; padding-top: 5px;">
+            <div class="card-body">
+                <h5 class="card-title">Bebidas</h5>
+                <p class="card-text">Te Llevamos las Bebidas</p>
+                <a href="/bebidas" class="btn btn-primary">Todas las bebidas</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="row mt-2" style="display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%">
+        <div id="carouselExampleIndicators" class="carousel slide" style="max-width: 540px" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../static/promos.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../static/Combos.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../static/alplato.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
-            <div class="card" style="width: 18rem; height:22rem; margin:5px 5px 5px 5px">
-                <img src="../static/PAPAS.jpg" class="card-img-top" alt="..." style="width:270px; height:160px;">
-                <div class="card-body">
-                    <h5 class="card-title"> Sale con Fritas</h5>
-                    <p class="card-text"> Simples o Con cheddar!! 
-                        Chicas, grandes para compartir y XL para todos!! </p>
-                    <a href="/fritas" class="btn btn-primary">todas las opciones</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem; height:22rem; margin:5px 5px 5px 5px">
-                <img src="../static/BIRRA.jpg" class="card-img-top" alt="..." style="width:270px; height:160px;">
-                <div class="card-body">
-                    <h5 class="card-title">Bebidas</h5>
-                    <p class="card-text">Te Llevamos las Bebidas</p>
-                    <a href="/bebidas" class="btn btn-primary">todas las opciones</a>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
     <div class="row mt-2" style="display:flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 100%;">
-        <div class="card mb-3" style="max-width: 540px;">
+        width: 100%; border-color: orange; border-width: 4px;">
+        <div class="card mb-3" style="max-width: 540px; border-color: orange; border-width: 4px;">
             <div class="row g-0">
                 <div class="col-md-12">
                     <div class="card-body">
                         <h3 class="text-center text-dark">DELIVERY / 4837-9415 / 1162681272</h3>
                         <h5 class="card-text mt-3">Días y Horarios</h5>
-                        <p class="card-text mt-3"><medium class="text-muted">Martes a Sábados - 11:30 a 15:30 y 19:30 a 23:00 hs</medium></p>
-                        <p class="card-text"><medium class="text-muted">Domingos - 19:30 a 23:00 hs</medium></p>
+                        <p class="card-text mt-3">
+                            <medium class="text-dark">Martes a Viernes - 11:30 a 15:30 y 19:30 a 23:00 hs</medium>
+                        </p>
+                        <p class="card-text">
+                            <medium class="text-dark">Sabados y Domingos - 19:30 a 23:00 hs</medium>
+                        </p>
                         <h4 class="text-center text-dark">PORTELA 1695</h4>
                     </div>
                 </div>
             </div>
         </div>
-        </body>
+</body>
 
 
 {% endblock %}
